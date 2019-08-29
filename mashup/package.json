@@ -1,0 +1,32 @@
+{
+  "name": "aer-mashup",
+  "version": "1.0.0",
+  "description": "AngularJS-based mashap",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --colors --config ./webpack/webpack.config.dev.js",
+    "eslint:fix": "eslint --fix --config=.eslintrc.js ./",
+    "eslint:lint": "eslint --config=.eslintrc.js ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.gost-group.com:7999/ditobr/ditobr-frontend.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "Qlik",
+    "mashup"
+  ],
+  "author": "Ilya Shulenin",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
